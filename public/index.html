@@ -1,0 +1,40 @@
+<!--
+   фронтенд для приложения "Kinoman".
+  - Отображает список фильмов, полученных из /api/movies
+-->
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinoman</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="container">
+        <h1>Каталог телефонов</h1>
+<p class="subtitle">Современные смартфоны из MySQL + Sequelize</p>
+
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Контейнер, куда будет динамически подставлен список треков -->
+      <section id="phone-list" class="tracks" aria-live="polite"></section>
+
+    </main>
+
+    <footer class="app-footer">
+      <div class="container">
+        <p>
+          
+          &copy; 2024 Kinoman. Все права защищены.
+        </p>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+  </html>
+
